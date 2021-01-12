@@ -1,0 +1,22 @@
+{
+  "name": "aconimewebui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aconime/AconimeWebUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aconime/AconimeWebUI/issues"
+  },
+  "homepage": "https://github.com/Aconime/AconimeWebUI#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}

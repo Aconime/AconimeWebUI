@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Window1</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="awui/uicontrols.css">
   </head>
+
   <body>
-    
+    <div id="navigator"></div>
+
+    <script type="module">
+      const CreateNavigator = require('./awui/uicontrols.js');
+
+      CreateNavigator('navigator', 
+      {
+        Items: [
+          {
+            Item: {
+              Title: 'Hello',
+              Link: '#'
+            },
+            Item: {
+              Title: 'asdfsdaf',
+              Link: '#'
+            },
+            Item: {
+              Title: 'dsafsdfsaghdfdsg',
+              Link: '#'
+            },
+            Item: {
+              Title: 'sadfasdf3223f2f23',
+              Link: '#'
+            }
+          }
+        ]
+      },'left');
+    </script>
   </body>
 </html>
